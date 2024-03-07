@@ -2,4 +2,4 @@
 
 meson setup builddir
 cd builddir
-meson compile
+meson compile(or meson compile -C builddir)
